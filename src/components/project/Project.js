@@ -14,7 +14,8 @@ function Project() {
                 <h1 className="projct-heading">
                     My Recent <strong style={{ color: "green" }}>Work</strong></h1>
                 <p style={{ color: "black" }}>
-                    Here are a few project I've worked on recently
+                    <br/>
+                    <h5>Here are a few project I've worked on recently.</h5>
                 </p>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
