@@ -36,6 +36,10 @@ function NavBar() {
             className={navColour ? "sticky" : "navbar"}
         >
             <Container>
+                <Navbar.Brand href="/" className="d-flex">
+                    <h4 className="img-fluid logo" style={{marginTop: "5px"  }}> Vikas Kumar</h4>
+
+                </Navbar.Brand>
 
                 <Navbar.Toggle
                     aria-controls="responsive-navbar-nav"
@@ -49,10 +53,13 @@ function NavBar() {
                 </Navbar.Toggle>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto" defaultActiveKey="#home">
+
+
+
                         <Nav.Item>
 
                             <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                                <h5 style={{ marginTop: "5px" }}> <AiOutlineHome style={{ marginBottom: "1px" }} /> Home</h5>
                             </Nav.Link>
                         </Nav.Item>
 
@@ -62,8 +69,8 @@ function NavBar() {
                                 as={Link}
                                 to="/about"
                                 onClick={() => updateExpanded(false)}>
-                                <AiOutlineUser style={{ marginBottom: "2px", fontWeight: "bold" }} /> {" "}
-                                About
+                                <h5 style={{marginTop: "5px"  }}> <AiOutlineUser style={{ marginBottom: "1px", fontWeight: "bold" }} /> {" "}
+                                    About</h5>
 
                             </Nav.Link>
 
@@ -74,8 +81,8 @@ function NavBar() {
                                 as={Link}
                                 to="/project"
                                 onClick={() => updateExpanded(false)}>
-                                < AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} /> {" "}
-                                Projects
+                                <h5 style={{marginTop: "5px"  }}>< AiOutlineFundProjectionScreen style={{ marginBottom: "1px" }} /> {" "}
+                                    Projects</h5>
 
                             </Nav.Link>
 
@@ -90,7 +97,7 @@ function NavBar() {
                                 to="/resume"
                                 onClick={() => updateExpanded(false)}
                             >
-                                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                                <h5 style={{ marginTop: "5px" }}> <CgFileDocument style={{ marginBottom: "1px" }} /> Resume</h5>
                             </Nav.Link>
 
                         </Nav.Item>
