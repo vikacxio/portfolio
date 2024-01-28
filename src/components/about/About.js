@@ -14,7 +14,7 @@ function About() {
                         paddingBottom: "50px"
                     }}>
                         <h1 style={{ marginLeft: "100px", fontSize: "2.1em", paddingBottom: "20px", }}>
-                            Know who <strong className="purple"> I'm</strong>
+                            Know who <strong className="green"> I'm</strong>
                         </h1>
                         <AboutCard />
                     </Col>
@@ -27,7 +27,7 @@ function About() {
                     </Col>
                 </Row>
                 <h1 className="project-heading" style={{ textAlign: "center", color:"black"}}>
-                    Professional <strong className="purple">skillset</strong>
+                    Professional <strong className="green">skillset</strong>
                 </h1>
                 <Techstack />
             </Container>

@@ -15,7 +15,7 @@ function Resume() {
 
     return (
         <div>
-            <Container fluid className="resume-container">
+            <Container fluid className="resume-section">
 
                 <Row style={{ justifyContent: "center", position: "relative" }}>
                     <Button variant="primary"
@@ -28,7 +28,9 @@ function Resume() {
                     </Button>
                 </Row>
                 <Row className="resume">
-                    <Document file={pdf} className="d-flex justify-content-center">
+                    <Document file={pdf} className="d-flex justify-content-center"    renderTextLayer={false}
+    renderAnnotationLayer={false}
+    customTextRenderer={false}>
                         <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
                     </Document>
                 </Row>

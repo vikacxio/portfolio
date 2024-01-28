@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap"
 
 import TypeAnimation from "./TypeAnimation"
+import SecondHome from "./SecondHome";
 
 function Home() {
     return (
@@ -29,6 +30,7 @@ function Home() {
                 </Container>
 
             </Container>
+            <SecondHome />
 
         </section>
     )

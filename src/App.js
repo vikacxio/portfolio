@@ -13,11 +13,16 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Resume from "./components/resume/Resume";
 import Project from "./components/project/Project";
 import About from "./components/about/About";
+import Footer from "./components/Footer";
 
 
 function App() {
 
   const [load, upadateLoad] = useState(true);
+  useEffect(() => {
+    document.title = 'Vikas Portfolio';
+    
+  }, []);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -38,6 +43,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
+        <Footer />
 
       </div>
     </Router>
