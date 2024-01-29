@@ -18,8 +18,12 @@
                 </p>
                 <ul>
                     <li className="about-activity">
-                    <ImPointRight /> Playing games
+                    <ImPointRight /> Football
                     </li>
+                    <li className="about-activity">
+                    <ImPointRight /> Badminton
+                    </li>
+                    
                     <li className="about-activity">
                     <ImPointRight /> Travelling
                     </li>

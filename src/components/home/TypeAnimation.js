@@ -4,10 +4,10 @@ function TypeAnimation() {
         <Typewriter
             options={{
                 strings: [
-                    "Software Engineer",
-                    "Front end Developer",
-                    "Back end Developer",
-                    "MERN Stack Developer"
+                    "Software Engineer.",
+                    "Front End Developer.",
+                    "Back End Developer.",
+                    "Cloud Engineer."
                 ],
                 autoStart: true,
                 loop: true,

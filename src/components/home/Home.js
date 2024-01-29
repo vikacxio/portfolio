@@ -2,6 +2,8 @@ import { Container, Row, Col } from "react-bootstrap"
 
 import TypeAnimation from "./TypeAnimation"
 import SecondHome from "./SecondHome";
+//import homepic from "../../assets/home.png"
+import ToolStack from "./ToolStack";
 
 function Home() {
     return (
@@ -10,7 +12,7 @@ function Home() {
                 <Container className="home-content">
 
                     <Row>
-                        <Col md={7} className="home-header">
+                        <Col md={6} className="home-header">
                             <h1 style={{ paddingBottom: 10, color: "black" }} className="heading">Hi  <span className="wave" role="img" aria-labelledby="wave">👋🏻</span>
                             </h1>
 
@@ -24,6 +26,10 @@ function Home() {
                             </div>
 
 
+                        </Col>
+                        <Col>
+                        <ToolStack/>
+                            
                         </Col>
                     </Row>
 

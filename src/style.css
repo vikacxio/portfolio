@@ -62,13 +62,13 @@ html {
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgba(178, 121, 216, 0.959);
+    background: rgba(183, 173, 190, 0.959);
     border-radius: 12px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: rgba(222, 130, 235, 0.911);
+    background:  rgba(183, 173, 190, 0.959);
     border-radius: 12px;
   }
   
@@ -268,8 +268,8 @@ html {
   }
   
   .home-content {
-    padding: 9rem 0 2rem !important;
-    color: whitesmoke;
+    padding: 5rem 0 2rem !important;
+    color: rgb(26, 22, 22);
     text-align: left;
   }
   
@@ -323,7 +323,7 @@ html {
   .home-about-section {
     position: relative;
     padding-bottom: 70px !important;
-    padding-top: 70px !important;
+    padding-top: 7px !important;
   }
   
   .home-about-description {
@@ -410,7 +410,7 @@ html {
     padding-top: 10px !important;
     padding-bottom: 8px !important ;
   }
-  .footer-copywright {
+  .footer-copyright {
     text-align: center !important;
   }
   
@@ -420,7 +420,7 @@ html {
   }
   
   @media (max-width: 767px) {
-    .footer-copywright {
+    .footer-copyright {
       text-align: center !important;
     }
   
@@ -559,7 +559,7 @@ html {
     margin: 15px !important;
     padding: 10px !important;
     opacity: 0.93 !important;
-    border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+    border: 1.7px solid #038de4 !important;
     vertical-align: middle !important;
     text-align: center !important;
     border-radius: 5px !important;
@@ -578,7 +578,7 @@ html {
   .tech-icons:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
-    border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+    border: 2.2px solid #038de4 !important;
   }
   .tech-icon-images {
     padding: 20px !important;
