@@ -17,7 +17,7 @@ function Resume() {
         <div>
             <Container fluid className="resume-section">
 
-                <Row style={{ justifyContent: "center", position: "relative" }}>
+                <Row style={{ justifyContent: "center", position: "relative", color: "red" }}>
                     <Button variant="primary"
                         href={pdf}
                         target="blank"

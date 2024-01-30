@@ -559,7 +559,7 @@ html {
     margin: 15px !important;
     padding: 10px !important;
     opacity: 0.93 !important;
-    border: 1.7px solid #038de4 !important;
+    border: 1.7px solid rgba(200, 137, 230, 0.637);
     vertical-align: middle !important;
     text-align: center !important;
     border-radius: 5px !important;
@@ -611,7 +611,7 @@ html {
     position: relative !important;
     padding-top: 110px !important;
     padding-bottom: 30px !important;
-    color: rgb(0, 0, 0) !important;
+    color: rgb(246, 1, 1) !important;
    
   }
   
@@ -699,8 +699,8 @@ html {
   }
   
   .like-btn {
-    background-color: #934cce5e !important;
-    border-color: #934cce5e !important;
+    background-color: #fa03035e !important;
+    border-color: #ff00005e !important;
     padding: 0.25rem 0.98rem !important;
     border-radius: 5px !important;
     line-height: 1.4 !important;
