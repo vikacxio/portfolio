@@ -28,10 +28,10 @@ function Resume() {
                     </Button>
                 </Row>
                 <Row className="resume">
-                    <Document file={pdf} className="d-flex justify-content-center"    renderTextLayer={false}
-    renderAnnotationLayer={false}
-    customTextRenderer={false}>
-                        <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+                    <Document file={pdf} className="d-flex justify-content-center" renderTextLayer={false}
+                        renderAnnotationLayer={false}
+                        customTextRenderer={false}>
+                        <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.5} />
                     </Document>
                 </Row>
 
