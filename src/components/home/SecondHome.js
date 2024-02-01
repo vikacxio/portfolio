@@ -10,24 +10,24 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 
-function SecondHome(){
-    return(
+function SecondHome() {
+  return (
     <Container fluid className="home-about-section" id="about">
       <Container >
-      <Row>
-        <Col md={6} className="myAvtar">
+        <Row>
+          <Col md={6} className="myAvtar">
             <Tilt>
               <img src={avtar} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
-      
-      
+
+
           <Col md={6} className="home-about-social">
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <h1>FIND ME ON</h1>
             <p>
               Feel free to <span className="green">connect </span>with me
@@ -38,7 +38,7 @@ function SecondHome(){
                   href="https://github.com/vikacxio"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour    "
+                  className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
@@ -75,15 +75,15 @@ function SecondHome(){
               </li>
             </ul>
           </Col>
-          </Row>
-       
-      
+        </Row>
+
+
 
       </Container>
     </Container>
 
 
-    )
+  )
 
 }
 export default SecondHome;
