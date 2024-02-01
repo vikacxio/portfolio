@@ -28,9 +28,7 @@ function Resume() {
                     </Button>
                 </Row>
                 <Row className="resume">
-                    <Document file={pdf} className="d-flex justify-content-center" renderTextLayer={false}
-                        renderAnnotationLayer={false}
-                        customTextRenderer={false}>
+                    <Document file={pdf} className="d-flex justify-content-center" >
                         <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.65} />
                     </Document>
                 </Row>
