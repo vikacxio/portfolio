@@ -13,7 +13,7 @@ function About() {
                         paddingTop: "30px",
                         paddingBottom: "50px"
                     }}>
-                        <h1 style={{ marginLeft: "18px", fontSize: "2.1em", paddingBottom: "20px", }}>Know who <strong className="green"> I'm</strong>
+                        <h1 style={{ marginLeft: "18px", fontSize: "2.1em", paddingBottom: "20px", }}>Know who <strong className="home-head"> I'm.</strong>
                         </h1>
                         <AboutCard />
                     </Col>
