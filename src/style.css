@@ -14,6 +14,10 @@ html {
     --imp-text-color: #c770f0;
   }
   
+  .home-head{
+    color: red;
+  }
+
   .green {
     color: #0ac84a;
   }
@@ -260,7 +264,7 @@ html {
   
   .home-section {
     position: relative;
-    z-index: -1;
+    z-index: 1;
    /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg);*/
     background-position: top center;
     background-repeat: no-repeat;
@@ -276,7 +280,7 @@ html {
   
   .heading {
     font-size: 2.4em !important;
-    padding-left: 50px !important;
+    padding-left: 45px !important;
   }
   
   .heading-name {
@@ -402,6 +406,37 @@ html {
     color: #ffffff !important;
   }
   
+
+  .tool-icons {
+    font-size: 4.5em !important;
+    margin: 15px !important;
+    padding: 10px !important;
+    opacity: 0.93 !important;
+    border: 1.7px solid rgba(17, 97, 113, 0.637);
+    vertical-align: middle !important;
+    text-align: center !important;
+    border-radius: 5px !important;
+    display: table !important;
+    box-shadow: 4px 5px 4px 3px rgba(53, 171, 203, 0.137) !important;
+    overflow: hidden !important;
+    transition: all 0.4s ease 0s !important;
+  }
+  
+  @media (max-width: 767px) {
+    .tool-icons {
+      margin: 10px !important;
+    }
+  }
+  
+  .tool-icons:hover {
+    transform: scale(1.05) !important;
+    overflow: hidden !important;
+    border: 2.2px solid #038de4 !important;
+  }
+  .tool-icon-images {
+    padding: 20px !important;
+    line-height: 1.6 !important;
+  }
   /* --------- */
   /* Footer */
   /* --------- */

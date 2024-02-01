@@ -9,7 +9,7 @@ import { FaReact} from "react-icons/fa";
 function ToolStack(){
 
     return(
-        <Row style={{justifyContent:"center", paddingBlockStart:"50px"}}>
+        <Row style={{justifyContent:"center", paddingBottom:"50px"}}>
             
             {/* <Col xs={4} md={2} className="tech-icon">
             <SiLinux /> 
@@ -17,22 +17,22 @@ function ToolStack(){
             {/* <Col xs={4} md={2} className="tech-icon">
             <FaWindows />
             </Col> */}
-            <Col xs={4} md={2} className="tech-icons">
+            <Col xs={4} md={2} className="tool-icons">
             <LiaLinode /> 
             </Col>
-            <Col xs={4} md={2} className="tech-icons">
+            <Col xs={4} md={2} className="tool-icons">
             <DiJava />
             </Col>
-            <Col xs={4} md={2} className="tech-icons">
+            <Col xs={4} md={2} className="tool-icons">
             <FaReact />
             </Col>
-            <Col xs={4} md={2} className="tech-icons">
+            <Col xs={4} md={2} className="tool-icons">
             <SiPostman />
             </Col>
-            <Col xs={4} md={2} className="tech-icons">
+            <Col xs={4} md={2} className="tool-icons">
             <SiLinux />
             </Col>
-            <Col xs={4} md={2} className="tech-icons">
+            <Col xs={4} md={2} className="tool-icons">
             <SiMicrosoftazure />
             </Col>
             
