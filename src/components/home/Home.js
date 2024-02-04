@@ -17,7 +17,7 @@ function Home() {
                             </h1>
 
                             <h1 className="heading-name" style={{ color: "black" }}>
-                                I'M
+                                I'm
                                 <strong className="main-name"> Vikas Kumar</strong>
                             </h1>
 

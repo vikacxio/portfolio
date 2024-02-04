@@ -88,7 +88,7 @@ html {
   
   .navbar {
     position: fixed !important;
-    background-color: #02b159 !important;
+    background-color: #000000 !important;
     color: white;
     transition: all 0.3s ease-out 0s !important;
     padding: 0.1rem 2rem !important;
@@ -98,7 +98,7 @@ html {
   
   .navbar-toggler {
     position: relative !important;
-    background-color: #02b159 !important;
+    background-color: #4a96a2 !important;
     border-color: transparent !important;
   }
   
@@ -151,7 +151,7 @@ html {
     .navbar {
       padding: 0.5rem 2rem !important;
       font-size: 1.4rem !important;
-      background-color: #021e10 !important;
+      background-color: #020403 !important;
       opacity: 0.9 !important;
     }
     .navbar-nav .nav-item a::after {
