@@ -1,5 +1,6 @@
  import Card from "react-bootstrap/Card"
  import { ImPointRight } from "react-icons/im";
+ import moglixIcon from "../../assets/moglix-logo.png"
 
  function AboutCard(){
     return (
@@ -10,7 +11,7 @@
 
                 Hi, I'm <span style={{color:"blue"}}>Vikas Kumar</span>, based in <span style={{color:"blue"}}> Delhi, India.</span>
                 <br />
-                I currently hold the position of a software developer at HCL Tech.
+                I currently hold the position of a software engineer at <span> <img src={moglixIcon} alt="Moglix Logo" style={{height: "30px", verticalAlign: "middle", marginLeft: "2px"  }} /></span>.
                 <br />
                 I have earned a Bachelor's degree in Computer Science from GGSIPU Delhi.
                 <br/>
@@ -19,10 +20,10 @@
                 </p>
                 <ul>
                     <li className="about-activity">
-                    <ImPointRight /> Football
+                    <ImPointRight /> Playing Football
                     </li>
                     <li className="about-activity">
-                    <ImPointRight /> Badminton
+                    <ImPointRight /> Playing Badminton
                     </li>
                     
                     <li className="about-activity">
