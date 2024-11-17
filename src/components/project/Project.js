@@ -29,7 +29,7 @@ function Project() {
                     </Col>
                     <Col md={4} className="project-card">
                         <ProjectCard imgPath={login}
-                            title="Login Api"
+                            title="Authentication"
                             description="The Spring Boot JWT Login API with Regex Validation is a secure and efficient authentication solution built for modern web applications. Leveraging the Spring Boot framework, JSON Web Tokens (JWT), and regular expressions, this API provides a robust and flexible authentication mechanism for user login."
                             ghLink="https://github.com/vikacxio/LoginApi"
                         />

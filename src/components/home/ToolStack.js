@@ -1,8 +1,8 @@
 import { Col, Row } from "react-bootstrap";
 
 
-import { SiPostman,SiLinux,SiMicrosoftazure} from "react-icons/si";
-import { LiaLinode } from "react-icons/lia";
+import { SiLinux,SiMicrosoftazure,SiMongodb} from "react-icons/si";
+import { BiLogoSpringBoot } from "react-icons/bi";
 import { DiJava } from "react-icons/di";
 //import { TbBrandVscode } from "react-icons/tb";
 import { FaReact} from "react-icons/fa";
@@ -18,7 +18,7 @@ function ToolStack(){
             <FaWindows />
             </Col> */}
             <Col xs={4} md={2} className="tool-icons">
-            <LiaLinode /> 
+            <BiLogoSpringBoot /> 
             </Col>
             <Col xs={4} md={2} className="tool-icons">
             <DiJava />
@@ -27,7 +27,7 @@ function ToolStack(){
             <FaReact />
             </Col>
             <Col xs={4} md={2} className="tool-icons">
-            <SiPostman />
+            <SiMongodb />
             </Col>
             <Col xs={4} md={2} className="tool-icons">
             <SiLinux />
