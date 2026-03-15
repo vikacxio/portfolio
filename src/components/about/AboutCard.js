@@ -38,7 +38,7 @@ function AboutCard() {
                 <img src={yatraIcon} alt="Yatra Logo" style={{ height: "30px" }} />
               </div>
               <div>
-                <img src={moglixIcon} alt="Moglix Logo" style={{ height: "30px" }} />
+                <img src={moglixIcon} alt="Moglix Logo" style={{ height: "35px" }} />
               </div>
               <div>
                 <img src={hclIcon} alt="HCL Logo" style={{ height: "20px" }} />
