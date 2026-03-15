@@ -1,7 +1,8 @@
 import { Col, Row } from "react-bootstrap";
 
 
-import { SiLinux,SiMicrosoftazure,SiMongodb} from "react-icons/si";
+import { SiLinux,SiMongodb} from "react-icons/si";
+import { VscAzure } from "react-icons/vsc";
 import { BiLogoSpringBoot } from "react-icons/bi";
 import { DiJava } from "react-icons/di";
 //import { TbBrandVscode } from "react-icons/tb";
@@ -33,7 +34,7 @@ function ToolStack(){
             <SiLinux />
             </Col>
             <Col xs={4} md={2} className="tool-icons">
-            <SiMicrosoftazure />
+            <VscAzure />
             </Col>
             
             
