@@ -784,4 +784,425 @@ html {
   .fork-btn-inner::after {
     display: none !important;
   }
+
+  /* --------- */
+  /* Theme Toggle */
+  /* --------- */
+  .theme-toggle-item {
+    display: flex;
+    align-items: center;
+  }
+
+  .theme-toggle-btn {
+    transition: all 0.3s ease-in-out !important;
+  }
+
+  .theme-toggle-btn:hover {
+    transform: scale(1.2);
+  }
+
+  /* --------- */
+  /* Dark Theme */
+  /* --------- */
+  .dark-theme {
+    background-color: #0c0513;
+    color: white;
+  }
+
+  .dark-theme html {
+    --section-background-color: linear-gradient(
+      to bottom left,
+      rgba(17, 16, 16, 0.582),
+      rgba(12, 8, 24, 0.904)
+    );
+    --image-gradient: linear-gradient(
+      to bottom left,
+      rgba(17, 16, 16, 0.678),
+      rgba(12, 10, 22, 0.863)
+    );
+    --imp-text-color: #c770f0;
+  }
+
+  .dark-theme ::-webkit-scrollbar-track {
+    background: #2d1950;
+  }
+
+  .dark-theme ::-webkit-scrollbar-thumb {
+    background: rgba(183, 173, 190, 0.959);
+  }
+
+  .dark-theme .sticky {
+    background-color: #1b1a2ea9 !important;
+  }
+
+  .dark-theme .navbar {
+    background-color: #000000 !important;
+    color: white;
+  }
+  .dark-theme .about-section {
+    color: rgb(5, 5, 5) !important;
+    background-image: var(--section-background-color) !important;
+  }
+
+  .dark-theme .project-section {
+    color: rgb(5, 5, 5) !important;
+    background-image: var(--section-background-color) !important;
+  }
+
+  .dark-theme .project-heading {
+    color: white !important;
+  }
+
+  .dark-theme .projct-heading {
+    color: white !important;
+  }
+
+  .dark-theme .home-head {
+    color: red !important;
+  }
+
+  .dark-theme .quote-card-view {
+    color: white !important;
+    background-color: transparent !important;
+  }
+
+  .dark-theme .quote-card-view p,
+  .dark-theme .quote-card-view blockquote {
+    color: white !important;
+  }
+
+  .dark-theme .project-card-view {
+    color: rgb(0, 0, 0) !important;
+  }
+
+  .dark-theme .tech-icons {
+    color: white !important;
+    box-shadow: 4px 5px 4px 3px rgba(200, 137, 230, 0.4) !important;
+    border: 1.7px solid rgba(200, 137, 230, 0.8) !important;
+  }
+
+  .dark-theme .about-activity {
+    color: white !important;
+  }
+
+  .dark-theme .about-activity li {
+    color: white !important;
+  }
+
+  .dark-theme .about-activity svg {
+    color: white !important;
+  }
+
+  .dark-theme h1,
+  .dark-theme h2,
+  .dark-theme h3,
+  .dark-theme h4,
+  .dark-theme h5,
+  .dark-theme h6 {
+    color: white;
+  }
+
+  .dark-theme p,
+  .dark-theme span:not([style*="color"]) {
+    color: white;
+  }
+
+  .dark-theme svg {
+    color: white;
+  }
+
+  .dark-theme .home-section {
+    background-image: var(--section-background-color);
+  }
+
+  .dark-theme .home-content {
+    color: white !important;
+  }
+
+  .dark-theme .home-header h1,
+  .dark-theme .home-header h2,
+  .dark-theme .heading,
+  .dark-theme .heading-name {
+    color: white !important;
+  }
+
+  .dark-theme .main-name {
+    color: #0ac84a !important;
+  }
+
+  .dark-theme .Typewriter__wrapper {
+    color: #ff0400 !important;
+  }
+
+  .dark-theme .Typewriter__cursor {
+    color: #0ac84a !important;
+  }
+
+  /* --------- */
+  /* Light Theme */
+  /* --------- */
+  .light-theme {
+    background-color: #f5f5f5;
+    color: #333;
+  }
+
+  .light-theme html {
+    --section-background-color: linear-gradient(
+      to bottom left,
+      rgba(255, 255, 255, 0.95),
+      rgba(240, 240, 250, 0.98)
+    );
+    --image-gradient: linear-gradient(
+      to bottom left,
+      rgba(255, 255, 255, 0.9),
+      rgba(240, 240, 250, 0.95)
+    );
+    --imp-text-color: #6366f1;
+  }
+
+  .light-theme ::-webkit-scrollbar-track {
+    background: #e0e0e0;
+  }
+
+  .light-theme ::-webkit-scrollbar-thumb {
+    background: rgba(100, 100, 100, 0.6);
+  }
+
+  .light-theme .sticky {
+    background-color: #000000 !important;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.3) !important;
+  }
+
+  .light-theme .navbar {
+    background-color: #000000 !important;
+    color: white !important;
+  }
+
+  .light-theme .navbar-brand {
+    color: white !important;
+  }
+
+  .light-theme .nav-link {
+    color: white !important;
+  }
+
+  .light-theme .navbar-nav .nav-link {
+    color: white !important;
+  }
+
+  .light-theme .navbar-toggler {
+    background-color: #6366f1 !important;
+  }
+
+  .light-theme .navbar-toggler span {
+    background-color: #ffffff !important;
+  }
+
+  .light-theme h1,
+  .light-theme h2,
+  .light-theme h3,
+  .light-theme h4,
+  .light-theme h5,
+  .light-theme h6,
+  .light-theme p {
+    color: #333;
+  }
+
+  .light-theme span {
+    color: #333;
+  }
+
+  .light-theme .navbar span,
+  .light-theme .navbar-brand span {
+    color: white !important;
+  }
+
+  .light-theme .navbar-brand {
+    color: white !important;
+  }
+
+  .light-theme .nav-link {
+    color: white !important;
+  }
+
+  .light-theme .navbar-nav .nav-link {
+    color: white !important;
+  }
+
+  .light-theme .navbar-brand h4 {
+    color: white !important;
+  }
+
+  .light-theme .navbar h5 {
+    color: white !important;
+  }
+
+  .light-theme .theme-toggle-btn {
+    color: #333 !important;
+  }
+
+  /* Light theme content sections */
+  .light-theme .about-section {
+    color: #333 !important;
+  }
+
+  .light-theme .about-section h1,
+  .light-theme .about-section h2,
+  .light-theme .about-section h3,
+  .light-theme .about-section h4,
+  .light-theme .about-section h5,
+  .light-theme .about-section h6 {
+    color: #333 !important;
+  }
+
+  .light-theme .about-section .home-head {
+    color: #6366f1 !important;
+  }
+
+  .light-theme .project-section {
+    color: #333 !important;
+  }
+
+  .light-theme .project-section h1,
+  .light-theme .project-section h2,
+  .light-theme .project-section h3,
+  .light-theme .project-section h4,
+  .light-theme .project-section h5,
+  .light-theme .project-section h6,
+  .light-theme .project-section p {
+    color: #333 !important;
+  }
+
+  .light-theme .project-heading {
+    color: #333 !important;
+  }
+
+  .light-theme .projct-heading {
+    color: #333 !important;
+  }
+
+  .light-theme .project-card-view {
+    color: #333 !important;
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    box-shadow: 0 4px 5px 3px rgba(99, 102, 241, 0.2) !important;
+  }
+
+  .light-theme .project-card-view:hover {
+    box-shadow: 0 4px 4px 5px rgba(99, 102, 241, 0.3) !important;
+  }
+
+  .light-theme .tech-icons {
+    color: #333 !important;
+    border: 1.7px solid rgba(99, 102, 241, 0.4) !important;
+  }
+
+  .light-theme .card-img-top {
+    background-color: #f5f5f5;
+  }
+
+  .light-theme .about-img img {
+    filter: brightness(0.9);
+  }
+
+  .light-theme .about-img {
+    filter: invert(0.05);
+  }
+
+  .light-theme .skill-para {
+    color: #555 !important;
+  }
+
+  .light-theme a {
+    color: #6366f1;
+  }
+
+  .light-theme .resume-link {
+    color: #6366f1 !important;
+  }
+
+  .light-theme .dark {
+    color: #333 !important;
+  }
+
+  .light-theme .quote-card-view {
+    color: #333 !important;
+    background-color: rgba(255, 255, 255, 0.7) !important;
+  }
+
+  .light-theme .quote-card-view p {
+    color: #333 !important;
+  }
+
+  .light-theme .quote-card-view a {
+    color: #6366f1 !important;
+  }
+
+  .light-theme .blockquote {
+    color: #333 !important;
+  }
+
+  .light-theme .resume-section {
+    color: #333 !important;
+  }
+
+  .light-theme .resume-section h1,
+  .light-theme .resume-section h2,
+  .light-theme .resume-section h3,
+  .light-theme .resume-section h4,
+  .light-theme .resume-section h5,
+  .light-theme .resume-section h6 {
+    color: #333 !important;
+  }
+
+  .light-theme .resume-section p {
+    color: #555 !important;
+  }
+
+  .light-theme .resume-item {
+    color: #333 !important;
+  }
+
+  .light-theme .nav-tabs .nav-link {
+    color: #333 !important;
+  }
+
+  .light-theme .nav-tabs .nav-link.active {
+    color: #6366f1 !important;
+    border-color: #6366f1 !important;
+  }
+
+  .light-theme .home-section {
+    background-color: #f5f5f5;
+  }
+
+  .light-theme .home-content {
+    color: #333 !important;
+  }
+
+  .light-theme .home-header h1,
+  .light-theme .home-header h2,
+  .light-theme .heading,
+  .light-theme .heading-name {
+    color: #333 !important;
+  }
+
+  .light-theme .Typewriter__cursor {
+    color: #0ac84a !important;
+  }
+
+  .light-theme span[style*="color: blue"] {
+    color: #0037ff !important;
+  }
+
+  .light-theme svg {
+    color: #333;
+  }
+
+  .light-theme .bg-light {
+    background-color: #f5f5f5 !important;
+  }
+
+  .light-theme .text-dark {
+    color: #333 !important;
+  }
   

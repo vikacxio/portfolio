@@ -13,10 +13,10 @@ function Home() {
 
                     <Row>
                         <Col md={6} className="home-header">
-                            <h1 style={{ paddingBottom: 10, color: "black" }} className="heading">Namaste  <span className="wave" role="img" aria-labelledby="wave">🙏</span>
+                            <h1 style={{ paddingBottom: 10 }} className="heading">Namaste  <span className="wave" role="img" aria-labelledby="wave">🙏</span>
                             </h1>
 
-                            <h1 className="heading-name" style={{ color: "black" }}>
+                            <h1 className="heading-name">
                                 I'm
                                 <strong className="main-name"> Vikas Kumar</strong>
                             </h1>
@@ -28,7 +28,7 @@ function Home() {
 
                         </Col>
                         <Col >
-                        <h1 className="project-heading" style={{ marginTop: "60px", textAlign: "center", color:"black"}}>
+                        <h1 className="project-heading" style={{ marginTop: "60px", textAlign: "center" }}>
                         "Hey<strong className="home-head"> ya!</strong>"</h1>
                         <ToolStack/>
                         </Col>

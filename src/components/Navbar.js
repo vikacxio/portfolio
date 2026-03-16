@@ -5,6 +5,7 @@ import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 
 import { CgFileDocument } from "react-icons/cg";
+import { BsSun, BsMoon } from "react-icons/bs";
 
 import {
     AiOutlineHome,
@@ -14,7 +15,7 @@ import {
 
 
 
-function NavBar() {
+function NavBar({ theme, toggleTheme }) {
     const [expand, updateExpanded] = useState(false);
     const [navColour, updateNavbar] = useState(false);
 
@@ -102,6 +103,26 @@ function NavBar() {
 
                         </Nav.Item>
 
+                        <Nav.Item className="theme-toggle-item">
+                            <button
+                                className="theme-toggle-btn"
+                                onClick={toggleTheme}
+                                style={{
+                                    background: "none",
+                                    border: "none",
+                                    color: "white",
+                                    cursor: "pointer",
+                                    fontSize: "1.5rem",
+                                    padding: "8px 12px",
+                                    display: "flex",
+                                    alignItems: "center",
+                                    justifyContent: "center",
+                                }}
+                                aria-label="Toggle dark/light theme"
+                            >
+                                {theme === "dark" ? <BsSun /> : <BsMoon />}
+                            </button>
+                        </Nav.Item>
 
 
                     </Nav>

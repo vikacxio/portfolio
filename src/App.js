@@ -19,6 +19,8 @@ import Footer from "./components/Footer";
 function App() {
 
   const [load, upadateLoad] = useState(true);
+  const [theme, setTheme] = useState("dark");
+
   useEffect(() => {
     document.title = 'Vikas Portfolio';
     
@@ -31,10 +33,15 @@ function App() {
 
     return () => clearTimeout(timer);
   }, []);
+
+  const toggleTheme = () => {
+    setTheme(theme === "dark" ? "light" : "dark");
+  };
+
   return (
     <Router>
-      <div className="App" id={load ? "no-scroll" : "scroll"}>
-        <NavBar />
+      <div className={`App ${theme}-theme`} id={load ? "no-scroll" : "scroll"}>
+        <NavBar theme={theme} toggleTheme={toggleTheme} />
 
         <Routes>
           <Route path="/" element={<Home />} />

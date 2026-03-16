@@ -25,7 +25,7 @@ function About() {
                         <img src={aboutImage} alt="about" className="img-fluid" />
                     </Col>
                 </Row>
-                <h1 className="project-heading" style={{ textAlign: "center", color:"black"}}>
+                <h1 className="project-heading" style={{ textAlign: "center" }}>
                     Professional <strong className="green">skillset</strong>
                 </h1>
                 <Techstack />

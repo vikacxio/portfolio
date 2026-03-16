@@ -13,7 +13,7 @@ function Project() {
             <Container>
                 <h1 className="projct-heading">
                     My Recent <strong style={{ color: "green" }}>Work</strong></h1>
-                <p style={{ color: "black" }}>
+                <p>
                     <br/>
                     <h5>Here are a few project I've worked on recently.</h5>
                 </p>
