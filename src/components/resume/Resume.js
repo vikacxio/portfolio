@@ -6,7 +6,8 @@ import { Document, Page, pdfjs } from "react-pdf";
 
 import { AiOutlineDownload } from "react-icons/ai";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+pdfjs.GlobalWorkerOptions.workerSrc =
+`https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.mjs`;
 
 function Resume() {
 
@@ -29,7 +30,12 @@ function Resume() {
                 </Row>
                 <Row className="resume">
                     <Document file={pdf} className="d-flex justify-content-center" >
-                        <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.65} />
+                        <Page
+                            pageNumber={1}
+                            scale={width > 786 ? 1.7 : 0.65}
+                            renderTextLayer={false}
+                            renderAnnotationLayer={false}
+                        />
                     </Document>
                 </Row>
 
