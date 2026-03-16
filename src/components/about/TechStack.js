@@ -8,10 +8,10 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiRedis,
   DiMysql,DiDocker
 } from "react-icons/di";
 import {
-  SiRedis,
   SiPostgresql,
   SiSpringboot ,
   SiApachekafka, SiKubernetes
@@ -49,7 +49,7 @@ function Techstack() {
             <DiNodejs />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-            <SiRedis />
+            <DiRedis />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
             <SiApachekafka />

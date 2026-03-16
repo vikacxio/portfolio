@@ -17,13 +17,13 @@ function AboutCard() {
             <br />
 
             I currently hold the position of a SDE-2 at{" "}
-            <span>
-              <img
-                src={ukgIcon}
-                alt="UKG Logo"
-                style={{ height: "20px", verticalAlign: "middle", marginLeft: "4px" }}
-              />
-            </span>.
+            <a href="https://www.ukg.com" target="_blank" rel="noopener noreferrer">
+            <img
+              src={ukgIcon}
+              alt="UKG Logo"
+              style={{ height: "20px", verticalAlign: "middle", marginLeft: "4px" }}
+            />
+            </a>.
             <br />
 
             I have earned a Bachelor's degree in Computer Science from GGSIPU Delhi.
@@ -34,14 +34,22 @@ function AboutCard() {
             <br />
 
             <div style={{ marginTop: "8px" }}>
-              <div>
-                <img src={yatraIcon} alt="Yatra Logo" style={{ height: "30px" }} />
+               <div>
+                <a href="https://www.yatra.com" target="_blank" rel="noopener noreferrer">
+                  <img src={yatraIcon} alt="Yatra Logo" style={{ height: "30px" }} />
+                </a>
               </div>
+
               <div>
-                <img src={moglixIcon} alt="Moglix Logo" style={{ height: "35px" }} />
+                <a href="https://www.moglix.com" target="_blank" rel="noopener noreferrer">
+                  <img src={moglixIcon} alt="Moglix Logo" style={{ height: "35px" }} />
+                </a>
               </div>
+
               <div>
-                <img src={hclIcon} alt="HCL Logo" style={{ height: "20px" }} />
+                <a href="https://www.hcltech.com" target="_blank" rel="noopener noreferrer">
+                  <img src={hclIcon} alt="HCL Logo" style={{ height: "20px" }} />
+                </a>
               </div>
             </div>
 
