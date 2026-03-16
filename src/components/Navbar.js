@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
@@ -18,6 +18,7 @@ import {
 function NavBar({ theme, toggleTheme }) {
     const [expand, updateExpanded] = useState(false);
     const [navColour, updateNavbar] = useState(false);
+    const navRef = useRef(null);
 
     function scrollHandler() {
         if (window.scrollY >= 20) {
@@ -29,8 +30,25 @@ function NavBar({ theme, toggleTheme }) {
 
     window.addEventListener("scroll", scrollHandler);
 
+    useEffect(() => {
+        function handleClickOutside(event) {
+            if (navRef.current && !navRef.current.contains(event.target)) {
+                updateExpanded(false);
+            }
+        }
+
+        if (expand) {
+            document.addEventListener("mousedown", handleClickOutside);
+        }
+
+        return () => {
+            document.removeEventListener("mousedown", handleClickOutside);
+        };
+    }, [expand]);
+
     return (
         <Navbar
+            ref={navRef}
             expanded={expand}
             fixed="top"
             expand="md"
@@ -112,8 +130,8 @@ function NavBar({ theme, toggleTheme }) {
                                     border: "none",
                                     color: "white",
                                     cursor: "pointer",
-                                    fontSize: "1.5rem",
-                                    padding: "8px 12px",
+                                    fontSize: "1.2rem",
+                                    padding: "8px 16px",
                                     display: "flex",
                                     alignItems: "center",
                                     justifyContent: "center",
